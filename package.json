@@ -1,0 +1,31 @@
+{
+  "name": "phonebookbackend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeleppane/Full-Stack-open-2021-part3.git"
+  },
+  "author": "Mikko Leppänen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeleppane/Full-Stack-open-2021-part3/issues"
+  },
+  "homepage": "https://github.com/mikeleppane/Full-Stack-open-2021-part3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.24.2",
+    "nodemon": "^2.0.12",
+    "prettier": "2.3.2"
+  }
+}
