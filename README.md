@@ -9,4 +9,4 @@ npm start or npm run dev (with nodemon)
 
 ``` 
 
-[Link to exercises](https://fullstackopen.com/osa2/palvelimella_olevan_datan_muokkaaminen#tehtavat-2-15-2-18)
+[Link to exercises](https://fullstackopen.com/osa3/node_js_ja_express#tehtavat-3-1-3-6)
