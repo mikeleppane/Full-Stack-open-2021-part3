@@ -36,10 +36,10 @@ const personSchema = new mongoose.Schema({
 const Person = mongoose.model("Person", personSchema);
 
 if (process.argv.length === SHOW_ONLY_DB) {
-  Person.find({}).then((result) => {
+  Person.find({}).then((persons) => {
     console.log("Phonebook:");
-    result.forEach((note) => {
-      console.log(note);
+    persons.forEach((person) => {
+      console.log(person);
     });
     mongoose.connection.close();
   });
